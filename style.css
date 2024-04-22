@@ -1,0 +1,41 @@
+html {
+  background: url(images/DPXH9wBVAAAb2iq.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  width: 300px;
+  margin: 150px auto;
+  padding: 20px 50px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+input {
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 60px;
+}
+span {
+  border: 2px solid black;
+  padding: 4px;
+  border-radius: 5px;
+  margin: 5px auto;
+}
+#thanks {
+  border: none;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+button {
+  background-color: antiquewhite;
+}

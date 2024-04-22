@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+    <hr />
+    <p>Bill amount $<input id="bill" type="number" min="0" /></p>
+    <p>Tip percentage <input id="tip" type="number" min="0" />%</p>
+    <p>Tax percentage <input id="tax" type="number" min="0" />%</p>
+    <p>amount of people <input id="people" type="number" min="1" /></p>
+    <p><button id="calculate">CALCULATE</button></p>
+    <hr />
+    <p>Total with tip & tax <span id="tip-tax">-----$</span></p>
+    <p>Amount per person <span id="Per-amount">-----$</span></p>
+
+    <p><button id="reset">Refresh</button></p>
+    <p><span id="thanks"></span></p>
+  </body>
+</html>
